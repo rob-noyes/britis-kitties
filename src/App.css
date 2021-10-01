@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 body {
@@ -26,12 +30,81 @@ ul {
 
 li {
   padding: 0 1rem;
-  list-style: none;
   padding-left: 0;
 }
 
-nav button {
+.navbarButton {
+  position: fixed;
+  right: 0;
+  z-index: 9;
+  color: black;
+  background: rgb(211, 171, 111);
   border: none;
-  background-color: white;
+  background: white;
   cursor: pointer;
+  font-size: 17px;
+  height: 4rem;
+}
+
+.homeButton {
+  border: none;
+  background: white;
+  cursor: pointer;
+  font-size: 17px;
+  height: 4rem;
+}
+
+nav > a button {
+  border: none;
+  background: white;
+  cursor: pointer;
+  font-size: 17px;
+  height: 4rem;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.menuNav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 0;
+  top: 0;
+  width: 0;
+  bottom: 0;
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: black;
+}
+
+.menuNav .showMenu {
+  width: 100%;
+}
+
+.showMenu {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.showMenu li {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.menuNav li:first-child {
+  margin-top: 6rem;
+  display: flex;
+}
+
+.active-link {
+  color: rgb(238, 224, 101);
+  text-decoration: underline;
 }
