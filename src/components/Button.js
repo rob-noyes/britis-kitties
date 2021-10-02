@@ -1,9 +1,5 @@
 const Button = ({ text }) => {
-  return (
-    <li>
-      <button>{text}</button>
-    </li>
-  );
+  return <button>{text}</button>;
 };
 
 export default Button;
