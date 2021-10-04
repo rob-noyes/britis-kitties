@@ -6,7 +6,7 @@ const Blog = () => {
   return (
     <BrowserRouter>
       <div id="blog">
-        <AllPosts />
+        <Route component={AllPosts} path="/blog" exact />
         <Route component={OnePost} path="/:slug" />
       </div>
     </BrowserRouter>
