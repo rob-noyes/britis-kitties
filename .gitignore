@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/britiskittiesblog/node_modules
 /.pnp
 .pnp.js
 
