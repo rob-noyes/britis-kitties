@@ -1,8 +1,15 @@
+import { BrowserRouter, Route } from 'react-router-dom';
+import OnePost from '../Posts/OnePost';
+import AllPosts from '../Posts/AllPosts';
+
 const Blog = () => {
   return (
-    <div id="blog">
-      <h2>Blog</h2>
-    </div>
+    <BrowserRouter>
+      <div id="blog">
+        <AllPosts />
+        <Route component={OnePost} path="/:slug" />
+      </div>
+    </BrowserRouter>
   );
 };
 export default Blog;

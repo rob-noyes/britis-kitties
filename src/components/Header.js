@@ -1,5 +1,5 @@
 import Button from './Button';
-import { Switch, Route, Link, NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
 
