@@ -58,7 +58,7 @@ nav > a button {
   border: none;
   background: white;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 2rem;
   height: 4rem;
 }
 
@@ -107,4 +107,27 @@ nav a {
 .active-link {
   color: rgb(238, 224, 101);
   text-decoration: underline;
+}
+
+MdClose,
+FiMenu {
+  color: black;
+  width: 2rem;
+  height: 2rem;
+}
+
+/***********
+  Body - Home
+************/
+
+#home,
+#blog,
+#donate {
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
 }
