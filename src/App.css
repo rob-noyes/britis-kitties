@@ -14,13 +14,6 @@ body {
   Header
 ************/
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
-}
-
 ul {
   display: flex;
   flex-direction: row;
@@ -34,11 +27,7 @@ li {
 }
 
 .navbarButton {
-  position: fixed;
   right: 0;
-  z-index: 9;
-  color: black;
-  background: rgb(211, 171, 111);
   border: none;
   background: white;
   cursor: pointer;
@@ -58,7 +47,6 @@ nav > a button {
   border: none;
   background: white;
   cursor: pointer;
-  font-size: 2rem;
   height: 4rem;
 }
 

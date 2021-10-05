@@ -27,12 +27,14 @@ const Header = ({ navbarOpen, toggle, closeMenu }) => {
     },
   ];
   return (
-    <nav className="navBar">
+    <nav className="flex justify-center items-center">
       <Link to="/">
-        <button className="flex items-center ml-3 ">Briti's Kitties</button>
+        <h1 className="items-center cursive text-5xl md:text-6xl">
+          Briti's Kitties
+        </h1>
       </Link>
       <button
-        className="navbarButton bg-transparent pr-6 pl-6 z-20"
+        className="navbarButton fixed bg-transparent outline-none pr-6 pl-6 z-20"
         onClick={toggle}
       >
         {navbarOpen ? (
