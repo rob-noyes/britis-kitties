@@ -37,7 +37,7 @@ const OnePost = () => {
       .catch(console.error);
   }, [slug]);
 
-  if (!postData) return <div>Loading...</div>;
+  if (postData == null) return <div></div>;
   return (
     console.log(postData),
     (

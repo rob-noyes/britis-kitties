@@ -117,29 +117,5 @@ FiMenu {
 }
 
 /***********
-  Body - Home
+    Body
 ************/
-
-#home,
-#blog,
-#donate,
-#about {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-#footer {
-  display: flex;
-  justify-content: center;
-}
-
-.blogposts div {
-  display: flex;
-  flex-direction: row;
-}
-
-.blogPosts div a span img {
-  width: 300px;
-}
