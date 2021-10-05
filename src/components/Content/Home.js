@@ -1,7 +1,7 @@
 const Home = () => {
   return (
-    <div id="home">
-      <h2>Home</h2>
+    <div className="home flex justify-center">
+      <h2>Welcome</h2>
     </div>
   );
 };

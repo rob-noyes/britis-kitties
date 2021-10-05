@@ -36,8 +36,7 @@ export default function AllPosts() {
             allPostsData.map((post, index) => (
               <Link to={'/' + post.slug.current} key={post.slug.current}>
                 <span
-                  className="block h-64 relative round rounded shadow leading-snug bg-white
-                      "
+                  className="block h-64 relative round rounded shadow leading-snug bg-white"
                   key={index}
                 >
                   <img
@@ -46,7 +45,7 @@ export default function AllPosts() {
                     alt=""
                   />
                   <span
-                    className="block relative h-full flex justify-end items-end pr
+                    className="relative h-full flex justify-end items-end pr
                       -4 pb-4"
                   >
                     <h2

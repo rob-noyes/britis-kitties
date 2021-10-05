@@ -29,9 +29,12 @@ const Header = ({ navbarOpen, toggle, closeMenu }) => {
   return (
     <nav className="navBar">
       <Link to="/">
-        <Button text="Briti's Kitties" />
+        <button className="flex items-center ml-3 ">Briti's Kitties</button>
       </Link>
-      <button className="navbarButton" onClick={toggle}>
+      <button
+        className="navbarButton bg-transparent pr-6 pl-6 z-20"
+        onClick={toggle}
+      >
         {navbarOpen ? (
           <MdClose
             style={{ color: 'black', width: '1.8rem', height: '1.8rem' }}
@@ -42,7 +45,7 @@ const Header = ({ navbarOpen, toggle, closeMenu }) => {
           />
         )}
       </button>
-      <ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
+      <ul className={`z-10 menuNav ${navbarOpen ? ' showMenu' : ''}`}>
         {links.map((link) => {
           return (
             <li key={link.id}>
