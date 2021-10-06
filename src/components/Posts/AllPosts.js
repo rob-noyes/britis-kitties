@@ -17,7 +17,6 @@ export default function AllPosts() {
                 url
             }
         },
-        body,
     }`
       )
       .then((data) => setAllPosts(data))
@@ -27,7 +26,7 @@ export default function AllPosts() {
   return (
     <div className="bg-gray-300 min-h-screen p-12">
       <div className="container mx-auto flex flex-col">
-        <h2 className="text-5xl flex justify-center mb-12">Blog</h2>
+        <h2 className="text-4xl flex justify-center mb-12">Blog</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {allPostsData &&
             allPostsData.map((post, index) => (

@@ -1,7 +1,7 @@
 const Donate = () => {
   return (
-    <div id="donate">
-      <h2>Donate!</h2>
+    <div className="flex justify-center min-h-screen bg-gray-200">
+      <h2 className="pt-6 text-2xl">Donate Here!</h2>
     </div>
   );
 };

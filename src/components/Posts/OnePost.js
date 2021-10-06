@@ -37,7 +37,7 @@ const OnePost = () => {
       .catch(console.error);
   }, [slug]);
 
-  if (postData == null) return <div></div>;
+  if (postData == null) return <></>;
   return (
     console.log(postData),
     (

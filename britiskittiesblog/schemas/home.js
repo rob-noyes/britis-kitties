@@ -13,10 +13,5 @@ export default {
       title: 'Description',
       type: 'text',
     },
-    {
-      name: 'body',
-      title: 'Body',
-      type: 'blockContent',
-    },
   ],
 };

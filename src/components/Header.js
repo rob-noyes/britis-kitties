@@ -34,7 +34,7 @@ const Header = ({ navbarOpen, toggle, closeMenu }) => {
         </h1>
       </Link>
       <button
-        className="navbarButton fixed bg-transparent outline-none pr-6 pl-6 z-20"
+        className="navbarButton fixed bg-transparent outline-none pr-6 pl-6 z-20 md:mr-4 lg:hidden"
         onClick={toggle}
       >
         {navbarOpen ? (
@@ -57,6 +57,17 @@ const Header = ({ navbarOpen, toggle, closeMenu }) => {
                 onClick={() => closeMenu()}
                 exact
               >
+                {link.text}
+              </NavLink>
+            </li>
+          );
+        })}
+      </ul>
+      <ul className="sm: hidden lg:flex lg:fixed lg:right-0">
+        {links.map((link) => {
+          return (
+            <li key={link.id}>
+              <NavLink to={link.path} onClick={() => closeMenu()} exact>
                 {link.text}
               </NavLink>
             </li>
