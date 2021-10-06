@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/britis-kitties/static/css/main.c9943611.chunk.css",
+    "main.js": "/britis-kitties/static/js/main.34250f7c.chunk.js",
+    "main.js.map": "/britis-kitties/static/js/main.34250f7c.chunk.js.map",
+    "runtime-main.js": "/britis-kitties/static/js/runtime-main.b82fc742.js",
+    "runtime-main.js.map": "/britis-kitties/static/js/runtime-main.b82fc742.js.map",
+    "static/js/2.172c541b.chunk.js": "/britis-kitties/static/js/2.172c541b.chunk.js",
+    "static/js/2.172c541b.chunk.js.map": "/britis-kitties/static/js/2.172c541b.chunk.js.map",
+    "index.html": "/britis-kitties/index.html",
+    "static/css/main.c9943611.chunk.css.map": "/britis-kitties/static/css/main.c9943611.chunk.css.map",
+    "static/js/2.172c541b.chunk.js.LICENSE.txt": "/britis-kitties/static/js/2.172c541b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b82fc742.js",
+    "static/js/2.172c541b.chunk.js",
+    "static/css/main.c9943611.chunk.css",
+    "static/js/main.34250f7c.chunk.js"
+  ]
+}
